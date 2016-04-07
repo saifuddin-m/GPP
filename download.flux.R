@@ -3,7 +3,7 @@ flux.url="http://flux.aos.wisc.edu/data/wcreek-raw/ascii/"
 flux.dat=readHTMLTable(flux.url,stringsAsFactors=FALSE)[[1]]
 flux.dat
 str(flux.dat)
-
+   
 ##create the list, which is a bunch of data tables, then after that squish em together
 masterflux=list()
 
